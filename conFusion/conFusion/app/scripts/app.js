@@ -75,9 +75,14 @@ angular.module('confusionApp', []).controller('menuController', function () {
                 mychannel: "", firstName: "", lastName: "",
                 agree: false, email: ""
             };
+            var channels = [{ value: "tel", label: "Tel." }, { value: "Email", label: "Email" }];
+            $scope.channels = channels;
+            $scope.invalidChannelSelection = false;
         }])
 
         .controller('FeedbackController', ['$scope', function ($scope) {
+
+
 
         }])
 
