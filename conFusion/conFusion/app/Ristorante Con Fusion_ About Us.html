@@ -68,7 +68,7 @@
             </div>
             <div class="col-xs-12 col-sm-9" ng-controller="FeedbackController">
                 <form class="form-horizontal" role="form" name="feedbackForm" ng-submit="sendFeedback()" novalidate>
-                    <div class="form-group" ng-class="{ 'has-error' : feedbackForm.lastname.$error.required && !feedbackForm.lastname.$pristine }">
+                    <div class="form-group" ng-class="{ 'has-error' : feedbackForm.firstname.$error.required && !firstname.lastname.$pristine }">
                         <label for="firstname" class="col-sm-2 control-label">First Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter First Name" ng-model="feedback.firstName" required>
