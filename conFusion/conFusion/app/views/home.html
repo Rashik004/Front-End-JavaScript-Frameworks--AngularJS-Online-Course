@@ -9,16 +9,16 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object img-thumbnail" ng-src={{dishes[0].image}} alt="Uthapizza" />
+                        <img class="media-object img-thumbnail" ng-src={{dish.image}} alt="Uthapizza" />
                     </a>
                 </div>
                 <div class="media-body">
                     <h2 class="media-heading">
-                        {{dishes[0].name}}
-                        <span class="label label-danger	label-xs">{{dishes[0].label}}</span>
-                        <span class="badge">{{dishes[0].price |	currency}}</span>
+                        {{dish.name}}
+                        <span class="label label-danger	label-xs">{{dish.label}}</span>
+                        <span class="badge">{{dish.price |	currency}}</span>
                     </h2>
-                    <p>{{dishes[0].description}}</p>
+                    <p>{{dish.description}}</p>
                 </div>
             </div>
         </div>
