@@ -301,3 +301,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/conFusion/conFusion/bundleconfig.json
+/conFusion/conFusion/app/styles/bundle.min.css
+/conFusion/conFusion/app/styles/bundle.css
